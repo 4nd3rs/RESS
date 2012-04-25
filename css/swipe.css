@@ -1,0 +1,22 @@
+.swipe ul, .swipe li {
+    margin: 0;
+    padding: 0;
+}
+.item{
+    position:relative;
+}
+
+.swipe-caption{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.7em;
+    text-size:small;
+    background: #000;
+    color: white;
+    overflow:hidden;
+}
+.swipe-caption p{
+    margin:0;
+}

@@ -1,0 +1,19 @@
+This folder is used for Filesystem caching, if WurflCloudCache_File is used.
+It must be writable by the webserver process.  This can be accomplished on
+Linux by using the following command from this directory:
+
+chmod -R 0777 ./
+
+If PHP Safe Mode is enabled, your webserver user must also own this directory.
+Usually the command for this is:
+
+chown -R www-data ./
+
+It is possible that your webserver runs under a user other than 'www-data', like
+'nobody' or 'apache'
+
+If all else fails you can tell WurflCloudCache to use the system temp directory by
+editing your script and setting the cache_path property like this:
+
+$cache = new WurflCloudCache_File();
+$cache->cache_path = WurflCloudCache_File::getSystemTempDir();

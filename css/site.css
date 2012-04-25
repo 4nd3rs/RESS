@@ -1,0 +1,44 @@
+body {
+    background: transparent url(http://www.netmagazine.com/sites/all/themes/netmag/media/img/bg_lightgrey.jpg) repeat;
+    /*Override bootsrap padding*/
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#footer {
+    clear: both;
+    background: black url(http://www.netmagazine.com/sites/all/themes/netmag/media/img/black.jpg);
+    padding: 1em;
+    color: white;
+}
+
+@media screen and (max-width: 979px) {
+    .max-980 {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .max-768 {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 319px) {
+    .max-320 {
+        display: none !important;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+.carousel img{
+    /*width:100%;*/
+}
+
+
+#fbcomments, .fb_iframe_widget, .fb_iframe_widget[style], .fb_iframe_widget iframe[style], #fbcomments iframe[style] {
+    width: 100% !important;
+}

@@ -1,0 +1,93 @@
+#site-logo {
+    width: 194px;
+    height: 88px;
+    float: left;
+    margin: 1em 0;
+    text-align: center;
+    background-image: url('../img/RESS-logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#site-logo a {
+    overflow: hidden;
+    text-indent: -999px;
+    display: block;
+    height: 88px;
+    width: 194px;
+}
+
+@media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+    #site-logo {
+        background-image: url('../img/RESS-logo-1.5.png');
+        background-size: 100%;
+    }
+}
+
+@media only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+    #site-logo {
+        background-image: url('../img/RESS-logo-2x.png');
+        background-size: 100%;
+    }
+}
+
+.logo {
+    text-align: center;
+}
+
+.ad {
+    float: right;
+    margin-top: 1em;
+}
+
+.mobile-ad {
+    text-align: center;
+    margin-top: 1em;
+}
+
+@media screen and (min-width: 480px) {
+    .mobile-ad {
+        float: right;
+    }
+
+    #site-logo {
+        width: 120px;
+        height: 54px;
+        background-size: 100%;
+    }
+
+    #site-logo a {
+        width: 120px;
+        height: 54px;
+    }
+
+}
+
+@media screen and (min-width: 580px) {
+
+    #site-logo {
+        float: left;
+        text-align: left;
+        width: 194px;
+        height: 88px;
+        background-size: auto;
+        margin: 1em;
+    }
+
+    #site-logo a {
+        width: 194px;
+        height: 88px;
+    }
+
+}
+
+@media screen and (max-width: 340px) {
+    .mobile-ad {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+}
+
+#header .header-text {
+    height: 110px;
+}
