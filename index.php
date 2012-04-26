@@ -2,7 +2,6 @@
 
 <div class="container">
     <div class="row">
-        <!--<div class="<?php /*echo $RESS["width"] >= 768 ? 'span8' :  'span12'*/?>">-->
         <div class="span8">
             <?php include "fragments/carousel.php" ?>
             <?php include "fragments/detection/device.php" ?>
