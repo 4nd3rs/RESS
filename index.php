@@ -18,7 +18,7 @@
                     <?php include "fragments/twitter-search.php"?>
                     <?php include "fragments/facebook.php"?>
                 </div>
-            <?php}?>
+            <?php } ?>
         </div>
 
     </div>
