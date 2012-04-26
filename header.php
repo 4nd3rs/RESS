@@ -25,6 +25,7 @@
         We populate a PHP array called RESS.
     -->
     <?php include "RESS.php"?>
+    <?php include "fragments/google-analytics.php" ?>
 </head>
 
 <body>
