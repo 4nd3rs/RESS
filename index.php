@@ -12,15 +12,13 @@
 
         <div class="span4">
             <?php include "fragments/archive.php"?>
-            <?php
-            if ($RESS["width"] >= 768) {
-                ?>
+            <?php if ($RESS["width"] >= 768) { ?>
                 <div class="max-768">
                     <h2>Social</h2>
                     <?php include "fragments/twitter-search.php"?>
                     <?php include "fragments/facebook.php"?>
                 </div>
-                <?php } ?>
+            <?php}?>
         </div>
 
     </div>

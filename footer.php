@@ -20,7 +20,7 @@
     </div>
 </div>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script src="js/swipe.min.js"></script>
+<script src="js/swipe.js"></script>
     <script>
         if (Modernizr.csstransforms) {
             var slider = new Swipe(document.getElementById('slider'));
