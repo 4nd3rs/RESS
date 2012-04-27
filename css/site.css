@@ -3,6 +3,11 @@ body {
     /*Override bootsrap padding*/
     padding-left: 10px;
     padding-right: 10px;
+    font-size:16px;
+}
+p{
+    font-size:1em;
+    line-height: 1.3em;
 }
 
 #footer {
@@ -34,11 +39,7 @@ img {
     max-width: 100%;
 }
 
-.carousel img{
-    /*width:100%;*/
-}
-
-
 #fbcomments, .fb_iframe_widget, .fb_iframe_widget[style], .fb_iframe_widget iframe[style], #fbcomments iframe[style] {
     width: 100% !important;
+    overflow: hidden;
 }
