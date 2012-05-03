@@ -15,7 +15,7 @@
     <link href="css/header.css" rel="stylesheet">
 
     <!-- Just neccecary scripts, rest goes in footer -->
-    <script src="http://modernizr.com/downloads/modernizr-2.5.3.js"></script>
+    <script src="js/modernizr-2.5.3-custom.js"></script>
 
     <!-- Include touch and favicons -->
     <?php include "fragments/touchicon.php"?>
