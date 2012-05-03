@@ -72,16 +72,16 @@ $defaultWidth = ($featureCapabilities["width"] ? $featureCapabilities["width"] :
 //select correct image version
 if ($defaultWidth < 320) {
     //small screens get 240 image
-    $imageVersion = "240";
+    $imageVersion = "320";
 } else if ($defaultWidth < 500) {
     //320-480 screens get 500
     $imageVersion = "500";
-} else if ($defaultWidth < 640) {
+} else if ($defaultWidth <= 1024) {
     //screens between 500 and 640 get 640
     $imageVersion = "640";
 } else {
     //anything larger than 640 get 1024
-    $imageVersion = "1024";
+    $imageVersion = "770";
 }
 
 global $RESS;
