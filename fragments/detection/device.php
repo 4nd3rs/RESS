@@ -27,8 +27,8 @@
         <td><?php echo $client->getDeviceCapability('resolution_width')?></td>
     </tr>
     <tr>
-        <td>H264 streaming</td>
-        <td><?php echo $client->getDeviceCapability('streaming_vcodec_h264_bp')?></td>
+        <td>Pointing method</td>
+        <td><?php echo $client->getDeviceCapability('pointing_method')?></td>
     </tr>
 
 

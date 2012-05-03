@@ -20,9 +20,5 @@
         <td>CSS animations</td>
         <td><span id="cssanim"></span></td>
     </tr>
-    <tr>
-        <td>H264 video</td>
-        <td><span id="h264"></span></td>
-    </tr>
     </tbody>
 </table>
