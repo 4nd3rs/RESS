@@ -1,5 +1,5 @@
 body {
-    background: transparent url(http://www.netmagazine.com/sites/all/themes/netmag/media/img/bg_lightgrey.jpg) repeat;
+    background: transparent url(../img/bg_lightgrey.jpg) repeat;
     /*Override bootsrap padding*/
     padding-left: 10px;
     padding-right: 10px;
@@ -12,7 +12,7 @@ p{
 
 #footer {
     clear: both;
-    background: black url(http://www.netmagazine.com/sites/all/themes/netmag/media/img/black.jpg);
+    background: black;
     padding: 1em;
     color: white;
 }
