@@ -4,6 +4,7 @@
     <div class="row">
         <div class="span8">
             <?php include "fragments/carousel.php" ?>
+            <?php include "fragments/content.php" ?>
             <?php include "fragments/detection/device.php" ?>
             <?php include "fragments/detection/feature.php" ?>
             <?php include "fragments/detection/ress.php" ?>
