@@ -61,7 +61,7 @@ Swipe.prototype = {
 
     // determine width of each slide
     this.width = this.container.getBoundingClientRect().width;
-    console.log("measured width: " + this.width);
+    //console.log("measured width: " + this.width);
 
     // return immediately if measurement fails
     if (!this.width) return null;
@@ -80,8 +80,8 @@ Swipe.prototype = {
         var images = el.getElementsByTagName("img");
 
         for(var i in images){
-            console.log("images: " + images[i]);
-            console.log("images style: " + images[i].style);
+            //console.log("images: " + images[i]);
+            //console.log("images style: " + images[i].style);
             if(images[i].style !== undefined){
                 images[i].style.width = this.width + 'px';
             }
