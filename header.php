@@ -77,11 +77,9 @@
 
                 <div class="nav-collapse">
                     <ul class="nav">
-                        <li class="active"><a href="#">Put</a></li>
-                        <li><a href="#">Your</a></li>
-                        <li><a href="#">Navigation</a></li>
-                        <li><a href="#">Links</a></li>
-                        <li><a href="#">Here</a></li>
+                        <li><a href="article.php">Original Article</a></li>
+                        <li><a href="https://github.com/4nd3rs/RESS">Sourcecode</a></li>
+                        <li><a href="#about">About</a></li>
                     </ul>
                 </div>
                 <!--/.nav-collapse -->
