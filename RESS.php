@@ -29,6 +29,12 @@
 
         // Set a cookie with the client side capabilities.
         RESS.writeCookie("RESS", "width." + width);
+        var widthElem = document.getElementById("width");
+        if(widthElem){
+            widthElem.innerHTML = window.innerWidth;
+        }
+
+
     }
 
     RESS.storeSizes();
@@ -44,6 +50,7 @@
             //make sure we do not do this too often...
             window.setTimeout(function () {
                 RESS.storeSizes();
+
                 RESS.isResizeActive = false;
             }, 1000);
         }
