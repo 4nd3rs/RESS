@@ -1,5 +1,10 @@
- $("#width").html(window.innerWidth);
+//set screen width
+document.getElementById("width").innerHTML = window.innerWidth;
 
-Modernizr.touch ?  $("#touch").html("Yes") : $("#touch").html("No");
+//detect if touchscreen
+var touchElem = document.getElementById("touch");
+Modernizr.touch ?  touchElem.innerHTML = "Yes" : touchElem.innerHTML = "No"
 
-Modernizr.cssanimations ?  $("#cssanim").html("Yes") : $("#cssanim").html("No");
+//detect if cssanim is supported
+var cssanimElem = document.getElementById("cssanim");
+Modernizr.cssanimations ?  cssanimElem.innerHTML = "Yes" : cssanimElem.innerHTML = "No";
