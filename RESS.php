@@ -43,7 +43,6 @@
 
     //register resize event
     window.onresize = function (event) {
-        console.log("Resize event sent");
         if (!RESS.isResizeActive) {
             RESS.isResizeActive = true;
 
