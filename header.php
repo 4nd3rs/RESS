@@ -77,7 +77,7 @@
 
                 <div class="nav-collapse">
                     <ul class="nav">
-                        <li><a href="article.php">Original Article</a></li>
+                        <li><a href="http://www.netmagazine.com/tutorials/getting-started-ress">Original Article</a></li>
                         <li><a href="https://github.com/4nd3rs/RESS">Sourcecode</a></li>
                         <li><a href="#about">About</a></li>
                     </ul>
